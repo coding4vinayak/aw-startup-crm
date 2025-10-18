@@ -56,7 +56,7 @@
                                 </span>
                             </td>
                             <td class="px-6 py-4">
-                                <div class="text-sm text-gray-900 max-w-xs truncate" title={contact.message}>
+                                <div class="text-sm text-gray-900 max-w-md whitespace-pre-wrap break-words">
                                     {contact.message}
                                 </div>
                             </td>

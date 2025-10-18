@@ -4,7 +4,6 @@ import prisma from '$lib/prisma'
 import { redirect } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
 
-// import bcrypt from "bcryptjs";
 import { v4 as uuidv4 } from 'uuid';
 
 
