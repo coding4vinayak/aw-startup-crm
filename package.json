@@ -47,9 +47,7 @@
 		"vite": "^7.1.10"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
+		"onlyBuiltDependencies": ["esbuild"]
 	},
 	"dependencies": {
 		"@lucide/svelte": "^0.546.0",
@@ -73,5 +71,9 @@
 		"uuid": "^13.0.0",
 		"winston": "^3.18.3",
 		"zod": "^4.1.12"
-	}
+	},
+	"engines": {
+		"node": "20.x"
+	},
+	"packageManager": "pnpm@10.13.1"
 }
